@@ -1,0 +1,45 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+2026-11-21T15:41:36 Finished cell 2
+2026-11-21T15:41:36 Finished cell 4
+2026-11-21T15:45:19 Finished cell 6
+2026-11-21T15:45:27 Finished cell 7
+2026-11-21T15:47:39 Finished cell 9
+Evaluating Random Forest without MHC...
+Done!
+-rw-r--r--@ 1 fsadaf  staff  816528 Nov 21 15:47 /Users/fsadaf/PhD_ASU/Classes/CSE_559_Algorithms_in_Computational_Biology/Project/Final_Project/interim_results/epitcr_common_predictions.csv
+Since you provided a smiles_language, the following parameters to this class will be ignored: canonical, augment, kekulize, all_bonds_explicit, selfies, sanitize, all_hs_explicit, remove_bonddir, remove_chirality, randomize, add_start_and_stop, padding, padding_length.
+Here are the problems:
+Looking great, no problems found!
+Negatives: fold 0, seed 13 finished
+Negatives: fold 0, seed 29 finished
+Negatives: fold 0, seed 47 finished
+Controls: fold 0, seed 13 finished
+Controls: fold 0, seed 29 finished
+Controls: fold 0, seed 47 finished
+Negatives: fold 1, seed 13 finished
+Negatives: fold 1, seed 29 finished
+Negatives: fold 1, seed 47 finished
+Negatives: fold 3, seed 13 finished
+Negatives: fold 3, seed 29 finished
+Negatives: fold 3, seed 47 finished
+Controls: fold 2, seed 13 finished
+Controls: fold 2, seed 29 finished
+Controls: fold 2, seed 47 finished
+Controls: fold 4, seed 13 finished
+Controls: fold 4, seed 29 finished
+Controls: fold 4, seed 47 finished
+Negatives: fold 2, seed 13 finished
+Negatives: fold 2, seed 29 finished
+Negatives: fold 2, seed 47 finished
+Negatives: fold 4, seed 13 finished
+Negatives: fold 4, seed 29 finished
+Negatives: fold 4, seed 47 finished
+Controls: fold 1, seed 13 finished
+Controls: fold 1, seed 29 finished
+Controls: fold 1, seed 47 finished
+Controls: fold 3, seed 13 finished
+Controls: fold 3, seed 29 finished
+Controls: fold 3, seed 47 finished
+2026-11-21T15:53:23 Finished cell 11
+2026-11-21T15:53:23 Finished cell 13
+INTERIM NOTEBOOK FINISHED

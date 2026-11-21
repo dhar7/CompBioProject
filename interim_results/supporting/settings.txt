@@ -1,0 +1,22 @@
+Interim run, 2026-11-21
+Sampling: seed 1601, up to 20 complete peptide groups per saved fold, plus all B*40:01 peptides.
+Selected 2905 of 9327 positives; 83 of 868 peptides.
+All positive records for selected peptides are retained. No model tuning was performed.
+Seeds: [13, 29, 47]; folds: 5 saved peptide folds; negative:positive ratio: 5:1.
+MLP epochs: 3; label shuffles: 1000; peptide bootstraps: 200.
+All seven negative constructions; seven input configurations on random pairing and p1.
+Frozen ESM-2 t6_8M encoder on cpu; unchanged 128-unit sklearn MLP and 3-mer boosting.
+CPU workers: 3; one numerical-library thread per worker.
+20% of the complete clean background is reserved for fixed length-matched evaluation negatives.
+Shared predictor comparison requires supported lengths and an unambiguous longer beta sequence.
+Structural inputs are prepared; structural folding and original author-test reproductions are omitted.
+Protein lookups and released predictor assets are reused from the verified local cache.
+Python: 3.11.9
+numpy: 1.26.4
+pandas: 2.3.3
+scikit-learn: 1.6.1
+scipy: 1.13.1
+torch: 2.15.0
+transformers: 4.57.6
+rapidfuzz: 3.14.6
+joblib: 1.6.0
